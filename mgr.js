@@ -61,10 +61,10 @@ define(['managerAPI',
         }],
 
         raceiat_instructions: [{
-            inherit: 'Instruktionen',
+            inherit: 'Instructions',
             name: 'raceiat_instructions',
             templateUrl: 'raceiat_instructions.jst',
-            title: 'IAT Instruktionen',
+            title: 'IAT Instructions',
             header: 'Impliziter Assoziations Test'
         }],
 
