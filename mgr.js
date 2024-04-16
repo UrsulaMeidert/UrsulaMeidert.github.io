@@ -61,7 +61,7 @@ define(['managerAPI',
         }],
 
         raceiat_instructions: [{
-            inherit: 'Instructions',
+            inherit: 'instructions',
             name: 'raceiat_instructions',
             templateUrl: 'raceiat_instructions.jst',
             title: 'IAT Instructions',
