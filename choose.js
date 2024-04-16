@@ -12,7 +12,7 @@ define(['questAPI'], function(Quest){
 	* Page prototype
 	*/
 	API.addPagesSet('basicPage',{
-	    header: 'Choose a task',
+	    header: 'Choose a task!',
 		noSubmit:false, 
 		decline: false,
 		numbered: false
