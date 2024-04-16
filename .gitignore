@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
+/.vs/UrsulaMeidert.github.io/config/applicationhost.config
+/.vs/UrsulaMeidert.github.io/FileContentIndex/33ff1a52-732b-4f06-bebd-7be101a86abf.vsidx
+/.vs/UrsulaMeidert.github.io/FileContentIndex/82bf92d7-28e8-44f5-8945-365df50308b1.vsidx
+/.vs/UrsulaMeidert.github.io/FileContentIndex/8fd22888-40fb-42e3-860d-4db458631b53.vsidx
+/.vs/UrsulaMeidert.github.io/FileContentIndex/e782d104-7305-404c-8350-e0d6bce5bdcb.vsidx
+/.vs/UrsulaMeidert.github.io/FileContentIndex/fd200f80-b499-43f3-ba92-09f699714deb.vsidx
+/.vs/UrsulaMeidert.github.io/v17/.wsuo
+/.vs/UrsulaMeidert.github.io/v17/DocumentLayout.json
+/.vs/VSWorkspaceState.json
