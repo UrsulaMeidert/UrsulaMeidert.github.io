@@ -20,11 +20,11 @@ define(['managerAPI',
     let whiteLabels = [];
 
     if (raceSet == 'a') {
-        blackLabels.push('African Americans');
-        whiteLabels.push('European Americans');
+        blackLabels.push('Homosexuell');
+        whiteLabels.push('Heterosexuell');
     } else {
-        blackLabels.push('Black people');
-        whiteLabels.push('White people');
+        blackLabels.push('Homosexuell');
+        whiteLabels.push('Heterosexuell');
     }
 
     API.addGlobal({
@@ -61,11 +61,11 @@ define(['managerAPI',
         }],
 
         raceiat_instructions: [{
-            inherit: 'instructions',
+            inherit: 'Instruktionen',
             name: 'raceiat_instructions',
             templateUrl: 'raceiat_instructions.jst',
-            title: 'IAT Instructions',
-            header: 'Implicit Association Test'
+            title: 'IAT Instruktionen',
+            header: 'Impliziter Assoziations Test'
         }],
 
         explicits: [{
@@ -98,7 +98,7 @@ define(['managerAPI',
         }],
 		
 		//This task waits until the data are sent to the server.
-        uploading: uploading_task({header: 'just a moment', body:'Please wait, sending data... '})
+        uploading: uploading_task({header: 'einen Augenblick bitte', body:'Bitte warenten Sie einen Moment, die Daten werden übertragen... '})
     });
 
     API.addSequence([
