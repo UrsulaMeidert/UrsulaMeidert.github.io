@@ -7,43 +7,43 @@ define(['managerAPI', 'https://cdn.jsdelivr.net/gh/minnojs/minno-datapipe@1.*/da
     API.setName('mgr');
     API.addSettings('skip',true);
 	
-	let sexSet = API.shuffle(['a','b'])[0];
-    let homoLabels = [];
-    let heteroLabels = [];
-
-    if (sexSet == 'a') {
-        homoLabels.push('Homo');
-        heteroLabels.push('Hetero');
-    } else {
-        homoLabels.push('Homosexual');
-        heteroLabels.push('Heterosexual');
-    }
+	let blackLabels = ['Homosexuell'];
+    let whiteLabels = ['Heterosexuell'];
 	
+	/*
 	API.addGlobal({
         sexiat:{},
-        baseURL: './sex.images/',
-        sexSet:sexSet,
-        homoLabels:homoLabels,
-        heteroLabels:heteroLabels,
+        //YBYB: change when copying back to the correct folder
+        baseURL: './images/',
+        raceSet:raceSet,
+        blackLabels:blackLabels,
+        whiteLabels:whiteLabels,
+        //Select randomly what attribute words to see. 
+        //Based on Axt, Feng, & Bar-Anan (2021).
         posWords : API.shuffle([
-            'Glücklich', 'Frieden', 'Vergnügen', 'Prachtvoll',
-            'Liebe', 'Lachen', 'Freude', 'Wundervoll'
+            'Love', 'Cheer', 'Friend', 'Pleasure',
+            'Adore', 'Cheerful', 'Friendship', 'Joyful', 
+            'Smiling','Cherish', 'Excellent', 'Glad', 
+            'Joyous', 'Spectacular', 'Appealing', 'Delight', 
+            'Excitement', 'Laughing', 'Attractive','Delightful', 
+            'Fabulous', 'Glorious', 'Pleasing', 'Beautiful', 
+            'Fantastic', 'Happy', 'Lovely', 'Terrific', 
+            'Celebrate', 'Enjoy', 'Magnificent', 'Triumph'
         ]), 
         negWords : API.shuffle([
-            'Qual', 'Verletzt', 'Misserfolg', 'Böse',
-            'Übel', 'Schrecklich', 'Grausam', 'Scheusslich'
+            'Abuse', 'Grief', 'Poison', 'Sadness', 
+            'Pain', 'Despise', 'Failure', 'Nasty', 
+            'Angry', 'Detest', 'Horrible', 'Negative', 
+            'Ugly', 'Dirty', 'Gross', 'Evil', 
+            'Rotten','Annoy', 'Disaster', 'Horrific',  
+            'Scorn', 'Awful', 'Disgust', 'Hate', 
+            'Humiliate', 'Selfish', 'Tragic', 'Bothersome', 
+            'Hatred', 'Hurtful', 'Sickening', 'Yucky'
         ])
     });
+	*/
 
     API.addTasksSet({
-        questionnaire: [{
-            type: 'quest',
-            name: 'questionnaire',
-            scriptUrl: 'questionnaire.js',  // This file should contain the questions for the questionnaire
-            onLoad: function() {
-                console.log('Questionnaire loaded with button text:', this.buttonText);
-            }
-        }],
 		instructions: [{
             type: 'message',
             buttonText: 'Continue'
@@ -89,8 +89,7 @@ define(['managerAPI', 'https://cdn.jsdelivr.net/gh/minnojs/minno-datapipe@1.*/da
     });
 
     API.addSequence([
-	    { type: 'isTouch' },
-        {inherit: 'questionnaire'},
+	{ type: 'isTouch' },
 		{inherit: 'intro'},
 		{inherit: 'sexiat_instructions'},
 		{inherit: 'sexuality'},

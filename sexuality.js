@@ -31,24 +31,12 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat8.j
 	    gayWords : gayWords,
 	    gayImages : gayImages,
 	    posWords : API.shuffle([
-            'Love', 'Cheer', 'Friend', 'Pleasure',
-            'Adore', 'Cheerful', 'Friendship', 'Joyful', 
-            'Smiling','Cherish', 'Excellent', 'Glad', 
-            'Joyous', 'Spectacular', 'Appealing', 'Delight', 
-            'Excitement', 'Laughing', 'Attractive','Delightful', 
-            'Fabulous', 'Glorious', 'Pleasing', 'Beautiful', 
-            'Fantastic', 'Happy', 'Lovely', 'Terrific', 
-            'Celebrate', 'Enjoy', 'Magnificent', 'Triumph'
+            'Glücklich', 'Frieden', 'Vergnügen', 'Prachtvoll',
+            'Liebe', 'Lachen', 'Freude', 'Wundervoll'
         ]), 
         negWords : API.shuffle([
-            'Abuse', 'Grief', 'Poison', 'Sadness', 
-            'Pain', 'Despise', 'Failure', 'Nasty', 
-            'Angry', 'Detest', 'Horrible', 'Negative', 
-            'Ugly', 'Dirty', 'Gross', 'Evil', 
-            'Rotten','Annoy', 'Disaster', 'Horrific',  
-            'Scorn', 'Awful', 'Disgust', 'Hate', 
-            'Humiliate', 'Selfish', 'Tragic', 'Bothersome', 
-            'Hatred', 'Hurtful', 'Sickening', 'Yucky'
+            'Qual', 'Verletzt', 'Misserfolg', 'Böse',
+            'Übel', 'Schrecklich', 'Grausam', 'Scheusslich'
         ])
 	});
 
