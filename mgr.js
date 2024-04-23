@@ -81,7 +81,6 @@ define(['managerAPI', 'https://cdn.jsdelivr.net/gh/minnojs/minno-datapipe@1.*/da
     API.addSequence([
 	    { type: 'isTouch' },
         {inherit: 'questionnaire'},
-		{inherit: 'intro'},
 		{inherit: 'sexiat_instructions'},
 		{inherit: 'sexuality'},
 		{inherit: 'uploading'},
