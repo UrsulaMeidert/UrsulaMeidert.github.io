@@ -228,12 +228,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instFirstCombined : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Teil blockNum von nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Drücken Sie die <b>E</b> Taste für <font color="#336600">leftCategory</font> und für <font color="#0000ff">leftAttribute</font>.<br/>' +
-				'Drücken Sie die <b>I</b> Taste für <font color="#336600">rightCategory</font> und für <font color="#0000ff">rightAttribute</font>.<br/>' +
-				'jedes Item gehört nur zu einer Kategorie.<br/><br/>' +
+				'Drücken Sie die Taste <b>E</b> für <font color="#336600">leftCategory</font> und für <font color="#0000ff">leftAttribute</font>.<br/>' +
+				'Drücken Sie die Taste <b>I</b> für <font color="#336600">rightCategory</font> und für <font color="#0000ff">rightAttribute</font>.<br/>' +
+				'Jedes Item gehört nur zu einer Kategorie.<br/><br/>' +
 				'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. ' +
 				'Drücken Sie die andere Taste, um fort zu fahren.<br/>' + 
-				'<u>Reagieren Sie so schnell Sie können</u> und machen Sie dabei so wenig Fehler wie möglich.<br/><br/></p>' +
+				'<u>Reagieren Sie so schnell Sie können und machen Sie dabei so wenig Fehler wie möglich.</u> <br/><br/></p>' +
 				'<p align="center">Drücken Sie die <b>Leertaste</b> wenn Sie parat sind.</font></p></div>',
 			instFirstCombinedTouch:[
 				'<div>',
