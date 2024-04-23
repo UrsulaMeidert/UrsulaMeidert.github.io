@@ -177,9 +177,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Legen Sie Ihren linken Zeige- oder Mittelfinger auf die Taste <b>E</b> für Items, die zur Kategorie <font color="#0000ff">leftAttribute.</font>' +
 				'<br/>Legen Sie Ihren rechten Zeige- oder Mittelfinger auf die Taste <b>I</b> für Items, die zur Kategorie <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
-				'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. red. ' +
-				'Korrigieren Sie den Fehler, indem Sie die andere Taste drücken.<br/>' +
-				'<u>Reagieren Sie so schnell Sie können</u> ohne Fehler zu machen.<br/><br/></p>'+
+				'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. ' +
+				'Drücken Sie die andere Taste, um fort zu fahren.<br/>' +
+				'<u>Reagieren Sie so schnell Sie können</u> und machen Sie so wenig Fehler wie möglich.<br/><br/></p>'+
 				'<p align="center">Drücken Sie die <b>Leertaste</b> wenn Sie parat sind.</font></p></div>',
 			instAttributePracticeTouch: [
 				'<div>',
