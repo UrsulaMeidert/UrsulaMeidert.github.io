@@ -54,10 +54,11 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat8.j
 	}
 
 	return iatExtension({
+		leftKey : 'x',
     	 attribute1 : {
-			name : 'Good', //Will appear in the data.
+			name : 'Gut', //Will appear in the data.
 			title : {
-				media : {word : 'Good'}, //Name of the category presented in the task.
+				media : {word : 'Gut'}, //Name of the category presented in the task.
 				css : {color:'#0000FF','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
@@ -75,9 +76,9 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat8.j
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 		},	
 		attribute2 :	{
-			name : 'Bad', //Will appear in the data.
+			name : 'Schlecht', //Will appear in the data.
 			title : {
-				media : {word : 'Bad'}, //Name of the category presented in the task.
+				media : {word : 'Schlecht'}, //Name of the category presented in the task.
 				css : {color:'#0000FF','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
@@ -95,9 +96,9 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat8.j
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 		},
 	    category1 : {
-			name : 'Straight people', //Will appear in the data.
+			name : 'Heterosexuell', //Will appear in the data.
 			title : {
-				media : {word : 'Straight people'}, //Name of the category presented in the task.
+				media : {word : 'Heterosexuell'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			},
@@ -112,9 +113,9 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat8.j
 			stimulusCss : {color:'#31940F','font-size':'2.3em'}
 		},
     	category2 :	{
-			name : 'Gay people', //Will appear in the data.
+			name : 'Homosexuell', //Will appear in the data.
 			title : {
-				media : {word : 'Gay people'}, //Name of the category presented in the task.
+				media : {word : 'Homosexuell'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			},

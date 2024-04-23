@@ -7,22 +7,12 @@ define(['managerAPI', 'https://cdn.jsdelivr.net/gh/minnojs/minno-datapipe@1.*/da
     API.setName('mgr');
     API.addSettings('skip',true);
 	
-	let sexSet = API.shuffle(['a','b'])[0];
-    let homoLabels = [];
-    let heteroLabels = [];
-
-    if (sexSet == 'a') {
-        homoLabels.push('Homo');
-        heteroLabels.push('Hetero');
-    } else {
-        homoLabels.push('Homosexual');
-        heteroLabels.push('Heterosexual');
-    }
+    let homoLabels = ['Homosexuell'];
+    let heteroLabels = ['Heterosexuell'];
 	
 	API.addGlobal({
         sexiat:{},
         baseURL: './sex.images/',
-        sexSet:sexSet,
         homoLabels:homoLabels,
         heteroLabels:heteroLabels,
         posWords : API.shuffle([
