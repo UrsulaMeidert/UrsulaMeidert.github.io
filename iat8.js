@@ -138,7 +138,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 
 			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
 			'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. ' +
-			'Clicken Sie auf die andere Taste, um fortzufahren. .<p/>',
+			'Clicken Sie auf die andere Taste, um fortzufahren.<p/>',
 
 			remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
 			'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. ' +
@@ -160,8 +160,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			
 			instWidth : 99, //The width of the instructions stimulus
 			
-			finalText : 'Drücken Sie auf die Leertaste, um fort zu fahren', 
-			finalTouchText : 'Drücken Sie auf die grüne Fläche unten, um fort zu fahren',
+			finalText : 'Drücken Sie auf die Leertaste, um fort zu fahren.', 
+			finalTouchText : 'Drücken Sie auf die grüne Fläche unten, um fort zu fahren.',
 
 			touchMaxStimulusWidth : '50%', 
 			touchMaxStimulusHeight : '50%', 
@@ -188,11 +188,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
-						'Put a left finger over the the <b>left</b> green area for items that belong to the category <font color="#0000ff">leftAttribute</font>.<br/>',
-						'Put a right finger over the <b>right</b> green area for items that belong to the category <font color="#0000ff">rightAttribute</font>.<br/>',
-						'Items will appear one at a time.<br/>',
+						'Legen Sie Ihren linken Zeige- oder Mittelfinger auf die Taste <b>linke</b> grüne Fläche für Items, die zur Kategorie <font color="#0000ff">leftAttribute</font> gehören.<br/>',
+						'Legen Sie Ihren rechten Zeige- oder Mittelfinger auf die Taste <b>rechte</b> grüne Fläche für Items, die zur Kategorie <font color="#0000ff">rightAttribute</font> gehören.<br/>',
+						'Die Items erscheinen eines nach dem anderen, jedes gehört zu einer Kategorie.<br/>',
 						'<br/>',
-						'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. Touch the other side. <u>Go as fast as you can</u> while being accurate.',
+						'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. Drücken Sie die andere Taste, um fort zu fahren. <u>Go as fast as you can</u> while being accurate.',
 					'</p>',
 					'<p align="center">Touch the <b>lower </b> green area to start.</p>',
 				'</div>'
