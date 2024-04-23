@@ -173,7 +173,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			// leftCategory, rightCategory, leftAttribute and rightAttribute, blockNum, nBlocks.
 			// Notice that this is HTML text.
 			instAttributePractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Teil blockNum von nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Legen Sie Ihren linken Zeige- oder Mittelfinger auf die Taste <b>E</b> für Items, die zur Kategorie <font color="#0000ff">leftAttribute.</font>' +
 				'<br/>Legen Sie Ihren rechten Zeige- oder Mittelfinger auf die Taste <b>I</b> für Items, die zur Kategorie <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
@@ -184,7 +184,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instAttributePracticeTouch: [
 				'<div>',
 					'<p align="center">',
-						'<u>Part blockNum of nBlocks</u>',
+						'<u>Teil blockNum von nBlocks</u>',
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
@@ -194,12 +194,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						'<br/>',
 						'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. Drücken Sie die andere Taste, um fort zu fahren. <u>Go as fast as you can</u> while being accurate.',
 					'</p>',
-					'<p align="center">Touch the <b>lower </b> green area to start.</p>',
+					'<p align="center">Drücken Sie auf die grüne Fläche <b>unten </b>, wenn Sie parat sind.</p>',
 				'</div>'
 			].join('\n'),
 
 			instCategoriesPractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Teil blockNum von nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Legen Sie Ihren linken Zeige- oder Mittelfinger auf die Taste <b>E</b> für Items, die zur Kategorie <font color="#336600">leftCategory</font> gehören. ' +
 				'<br/>Legen Sie Ihren rechten Zeige- oder Mittelfinger auf die Taste <b>I</b> für Items, die zur Kategorie <font color="#336600">rightCategory</font> gehören.<br/> ' +
@@ -211,7 +211,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instCategoriesPracticeTouch: [
 				'<div>',
 					'<p align="center">',
-						'<u>Part blockNum of nBlocks</u>',
+						'<u>Teil blockNum von nBlocks</u>',
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
@@ -221,12 +221,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						'<br/>',
 						'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. Drücken Sie die andere Taste, um fort zu fahren. <u>Reagieren Sie so schnell Sie können und machen Sie dabei so wenig Fehler wie möglich.</u> .',
 					'</p>',
-					'<p align="center">Drücken Sie auf die <b>lower </b> grüne Fläche, um zu starten.</p>',
+					'<p align="center">Drücken Sie auf die grüne Fläche <b>unten</b>, wenn Sie parat sind.</p>',
 				'</div>'
 			].join('\n'),
 
 			instFirstCombined : '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Teil blockNum von nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Drücken Sie die <b>E</b> Taste für <font color="#336600">leftCategory</font> und für <font color="#0000ff">leftAttribute</font>.<br/>' +
 				'Drücken Sie die <b>I</b> Taste für <font color="#336600">rightCategory</font> und für <font color="#0000ff">rightAttribute</font>.<br/>' +
@@ -238,7 +238,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instFirstCombinedTouch:[
 				'<div>',
 					'<p align="center">',
-						'<u>Part blockNum of nBlocks</u>',
+						'<u>Teil blockNum von nBlocks</u>',
 					'</p>',
 					'<br/>',
 					'<br/>',
@@ -252,14 +252,14 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			].join('\n'),
 
 			instSecondCombined : '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Teil blockNum von nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'This is the same as the previous part.<br/>' +
-				'Use the <b>E</b> key for <font color="#336600">leftCategory</font> and for <font color="#0000ff">leftAttribute</font>.<br/>' +
-				'Use the <b>I</b> key for <font color="#336600">rightCategory</font> and for  <font color="#0000ff">rightAttribute</font>.<br/>' +
-				'Each item belongs to only one category.<br/><br/>' +
-				'<u>Go as fast as you can</u> while being accurate (make no mistakes!).<br/><br/></p>' +
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+				'Sortieren Sie noch einmal dieselben vier Kategorien.<br/>' +
+				'Drücken Sie die Taste <b>E</b> für <font color="#336600">leftCategory</font> und für <font color="#0000ff">leftAttribute</font>.<br/>' +
+				'Drücken Sie die Taste <b>I</b> für <font color="#336600">rightCategory</font> und für  <font color="#0000ff">rightAttribute</font>.<br/>' +
+				'Beachten Sie, dass jedes Item nur in eine Gruppe gehört.<br/><br/>' +
+				'<u>Reagieren Sie so schnell Sie können</u> und machen Sie dabei so wenig Fehler wie möglich.<br/><br/></p>' +
+				'<p align="center">Drücken Sie die <b>Leertaste</b> wenn Sie parat sind.</font></p></div>',
 			instSecondCombinedTouch:[
 				'<div>',
 					'<p align="center"><u>Part blockNum of nBlocks</u></p>',
