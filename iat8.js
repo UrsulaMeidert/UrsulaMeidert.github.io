@@ -233,7 +233,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'jedes Item gehört nur zu einer Kategorie.<br/><br/>' +
 				'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. ' +
 				'Drücken Sie die andere Taste, um fort zu fahren.<br/>' + 
-				'<u>Reagieren Sie so schnell Sie können </u> und machen Sie dabei so wenig Fehler wie möglich.<br/><br/></p>' +
+				'<u>Reagieren Sie so schnell Sie können</u> und machen Sie dabei so wenig Fehler wie möglich.<br/><br/></p>' +
 				'<p align="center">Drücken Sie die <b>Leertaste</b> wenn Sie parat sind.</font></p></div>',
 			instFirstCombinedTouch:[
 				'<div>',
@@ -243,11 +243,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'<br/>',
 					'<br/>',
 					'<p align="left" style="margin-left:5px">',
-						'Put a left finger over the <b>left</b> green area for <font color="#336600">leftCategory</font> items and for <font color="#0000ff">leftAttribute</font>.</br>',
-						'Put a right finger over the <b>right</b> green area for <font color="#336600">rightCategory</font> items and for <font color="#0000ff">rightAttribute</font>.</br>',
-							'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. Touch the other side. <u>Go as fast as you can</u> while being accurate.</br>',
+						'Legen Sie den linken Zeige- oder Mittelfinger auf die <b>linke</b> grüne Fläche für <font color="#336600">leftCategory</font> Items und für <font color="#0000ff">leftAttribute</font>.</br>',
+						'Legen Sie den rechten Zeige- oder Mittelfinger auf die <b>right</b> grüne Fläche für <font color="#336600">rightCategory</font> Items und für <font color="#0000ff">rightAttribute</font>.</br>',
+							'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. Drücken Sie die andere Taste, um fort zu fahren. <u>Reagieren Sie so schnell Sie können</u> und machen Sie dabei so wenig Fehler wie möglich.</br>',
 						'</p>',
-						'<p align="center">Touch the <b>lower </b> green area to start.</p>',
+						'<p align="center">Drücken Sie auf die grüne Fläche <b>unten</b>, wenn Sie parat sind.</p>',
 				'</div>'
 			].join('\n'),
 
