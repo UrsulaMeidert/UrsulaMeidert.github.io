@@ -105,9 +105,9 @@ define(['pipAPI','iat8.js'], function(APIConstructor, iatExtension){
 			stimulusMedia : 
 			[ //Stimuli content as PIP's media objects
 				{image: '06_hetero.jpg'},
-				{word: 'Straight'},
-				{word: 'Heterosexual'},
-				{word: 'Straight People'}
+				{word: 'Hetero'},
+				{word: 'Heterosexuell'},
+				{word: 'Heteros'}
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'2.3em'}
