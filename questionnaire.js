@@ -5,7 +5,7 @@ define(['pipAPI'], function(APIconstructor) {
     API.addSequence([
         {
             type: 'quest',
-            header: 'Um die Entwicklung über den Verlauf Ihres Studiums feststellen zu können, sind wir darauf angewiesen, Ihre Antworten einander zuordnen zu können. Damit dies anonym geschehen kann, bitten wir Sie, einen Code nach dem folgenden Schema zu erfassen. Bei späteren Befragungen kann dieser dann ausschliesslich von Ihnen wieder hergestellt werden.',
+            header: 'Bitte geben Sie untenstehend nochmals denselben Code ein wie zuvor, damit wir Ihre Antworten einander zuordnen können.',
             submitText: 'Weiter',
             questions: [
                 {
