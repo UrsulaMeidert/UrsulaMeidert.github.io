@@ -175,12 +175,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instAttributePractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Put a left toe on the <b>E</b> key for items that belong to the category <font color="#0000ff">leftAttribute.</font>' +
-				'<br/>Put a right toe on the <b>I</b> key for items that belong to the category <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
-				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
-				'Press the other key to continue.<br/>' +
-				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>'+
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+				'Legen Sie Ihren linken Zeige- oder Mittelfinger auf die Taste <b>E</b> für Items, die zur Kategorie <font color="#0000ff">leftAttribute.</font>' +
+				'<br/>Legen Sie Ihren rechten Zeige- oder Mittelfinger auf die Taste <b>I</b> für Items, die zur Kategorie <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
+				'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. red. ' +
+				'Korrigieren Sie den Fehler, indem Sie die andere Taste drücken..<br/>' +
+				'<u>REAGIREN SIE SO SCHNELL SIE KÖNNEN</u> ohne Fehler zu machen.<br/><br/></p>'+
+				'<p align="center">Drücken Sie die <b>Leertaste</b> wenn Sie parat sind.</font></p></div>',
 			instAttributePracticeTouch: [
 				'<div>',
 					'<p align="center">',
