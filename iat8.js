@@ -262,43 +262,43 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<p align="center">Drücken Sie die <b>Leertaste</b> wenn Sie parat sind.</font></p></div>',
 			instSecondCombinedTouch:[
 				'<div>',
-					'<p align="center"><u>Part blockNum of nBlocks</u></p>',
+					'<p align="center"><u>Teil blockNum von nBlocks</u></p>',
 					'<br/>',
 					'<br/>',
 
 					'<p align="left" style="margin-left:5px">',
-						'Put a left finger over the <b>left</b> green area for <font color="#336600">leftCategory</font> items and for <font color="#0000ff">leftAttribute</font>.<br/>',
-						'Put a right finger over the <b>right</b> green area for <font color="#336600">rightCategory</font> items and for <font color="#0000ff">rightAttribute</font>.<br/>',
+						'Legen Sie Ihren liken Zeigefinger auf die grüne Fläche <b>links</b> für <font color="#336600">leftCategory</font> Items und für <font color="#0000ff">leftAttribute</font>.<br/>',
+						'Legen Sie Ihren rechten Zeigefinger auf die grüne Fläche <b>right</b> für <font color="#336600">rightCategory</font> Items und für <font color="#0000ff">rightAttribute</font>.<br/>',
 						'<br/>',
-						'<u>Go as fast as you can</u> while being accurate.<br/>',
+						'<u>Reagieren Sie so schnell Sie können</u> und machen Sie dabei so wenig Fehler wie möglich.<br/>',
 					'</p>',
-					'<p align="center">Touch the <b>lower </b> green area to start.</p>',
+					'<p align="center">Drücken Sie auf die grüne Fläche <b>unten</b>, wenn Sie parat sind.</p>',
 				'</div>'
 			].join('\n'),
 
 			instSwitchCategories : '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Teil blockNum von nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'<b>Watch out, the labels have changed position!</b><br/>' +
-				'Use the left finger on the <b>E</b> key for <font color="#336600">leftCategory</font>.<br/>' +
-				'Use the right finger on the <b>I</b> key for <font color="#336600">rightCategory</font>.<br/><br/>' +
-				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>' +
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+				'<b>Beachten Sie, dass die Kategorien die Seite getauscht haben!</b><br/>' +
+				'Drücken Sie die Tast <b>E</b> für <font color="#336600">leftCategory</font>.<br/>' +
+				'Drücken Sie die Tast <b>I</b> für <font color="#336600">rightCategory</font>.<br/><br/>' +
+				'<u>Reagieren Sie so schnell Sie können</u> und machen Sie dabei so wenig Fehler wie möglich.<br/><br/></p>' +
+				'<p align="center">Drücken Sie die <b>Leertaste</b> wenn Sie parat sind.</font></p></div>',
 			instSwitchCategoriesTouch: [
 				'<div>',
 					'<p align="center">',
-						'<u>Part blockNum of nBlocks</u>',
+						'<u>Teil blockNum von nBlocks</u>',
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
-						'Watch out, the labels have changed position!<br/>',
-							'Put a left finger over the <b>left</b> green area for <font color="#336600">leftCategory</font> items.<br/>',
-							'Put a right finger over the <b>right</b> green area for <font color="#336600">rightCategory</font> items.<br/>',
-							'Items will appear one at a time.',
+						'Beachten Sie, dass die Kategorien die Seite getauscht haben!<br/>',
+							'Drücken Sie auf die grüne Fläche <b>links</b> für <font color="#336600">leftCategory</font> items.<br/>',
+							'Drücken Sie auf die grüne Fläche <b>rechts</b> für <font color="#336600">rightCategory</font> items.<br/>',
+							'Die Items erscheinen eines nach dem anderen.',
 							'<br/>',
-							'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. Touch the other side. <u>Go as fast as you can</u> while being accurate.<br/>',
+							'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. Drücken Sie die andere Taste, um fort zu fahren. <u>Reagieren Sie so schnell Sie können</u> und machen Sie dabei so wenig Fehler wie möglich.<br/>',
 						'</p>',
-						'<p align="center">Touch the <b>lower </b> green area to start.</p>',
+						'<p align="center">Drücken Sie auf die grüne Fläche <b>unten</b>, wenn Sie parat sind.</p>',
 				'</div>'
 			].join('\n'),
 
