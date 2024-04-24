@@ -3,7 +3,7 @@ define(['pipAPI','iat8.js'], function(APIConstructor, iatExtension){
 	
 	//Randomize which of the three possible stimulus sets we are going to use for the gay category
     var gaySet = API.shuffle(['Homosexuell','Lesbe','general'])[0];
-    var gayWords = ['Gay People', 'Homosexual']; //All gay sets have this word
+    var gayWords = ['Homosexuelle Personen', 'Homosexuell']; //All gay sets have this word
 	var gayImages = [];
 
     //Fill the sets of words and images for the gay categories, based on the gay-set condition
