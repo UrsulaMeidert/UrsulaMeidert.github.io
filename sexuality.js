@@ -107,7 +107,7 @@ define(['pipAPI','iat8.js'], function(APIConstructor, iatExtension){
 				{image: '06_hetero.jpg'},
 				{word: 'Hetero'},
 				{word: 'Heterosexuell'},
-				{word: 'Heteros'}
+				{word: 'Heterosexuelle Personen'}
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'2.3em'}
