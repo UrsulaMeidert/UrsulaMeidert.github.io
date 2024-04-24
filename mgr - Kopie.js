@@ -85,7 +85,7 @@ define(['managerAPI', 'https://cdn.jsdelivr.net/gh/minnojs/minno-datapipe@1.*/da
         }],
 		
 		//This task waits until the data are sent to the server.
-        uploading: uploading_task({header: 'just a moment', body:'Please wait, sending data... '})
+        uploading: uploading_task({header: 'einen Moment bitte', body:'Einen Moment Geuld bitte, die Daten werden gespeichert ... '})
     });
 
     API.addSequence([
