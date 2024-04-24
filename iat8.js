@@ -153,7 +153,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//Text and style for key instructions displayed about the category labels.
 			leftKeyText : 'Drücken Sie "E" für', 
 			rightKeyText : 'Drücken Sie "I" für', 
-			keysCss : {'font-size':'0.8em', 'font-family':'courier', color:'#000000'},
+			keysCss : {'font-size':'0.9em', 'font-family':'courier', color:'#000000'},
 			//Text and style for the separator between the top and bottom category labels.
 			orText : 'oder', 
 			orCss : {'font-size':'1.8em', color:'#000000'},
