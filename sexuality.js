@@ -9,19 +9,19 @@ define(['pipAPI','iat8.js'], function(APIConstructor, iatExtension){
     //Fill the sets of words and images for the gay categories, based on the gay-set condition
 	if (gaySet == 'lesbian')
     {
-        gayWords.push('Lesbians');
-        gayWords.push('Gay Women');
+        gayWords.push('Lesben');
+        gayWords.push('Homosexuelle Frauen');
         gayImages.push('07_lesbian.jpg');
     }
     else if (gaySet == 'gay')
     {
-        gayWords.push('Gay');
-        gayWords.push('Gay Men');
+        gayWords.push('Schwule');
+        gayWords.push('Homosexuelle Männer');
         gayImages.push('05_gay.jpg');
 	}
     else //General: use both men and women images.
     {
-        gayWords.push('Gay');
+        gayWords.push('Homosexuell');
         gayImages.push('07_lesbian.jpg');
         gayImages.push('05_gay.jpg');
 	}
