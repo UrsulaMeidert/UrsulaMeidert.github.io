@@ -328,6 +328,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 
 		// are we on the touch version
 		var isTouch = piCurrent.isTouch;
+		var isTouch = 'ontouchstart' in window || navigator.maxTouchPoints;
 
 		//We use these objects a lot, so let's read them here
 		var att1 = piCurrent.attribute1;
