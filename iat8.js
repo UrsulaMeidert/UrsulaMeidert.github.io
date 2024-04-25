@@ -138,11 +138,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 
 			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
 			'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. ' +
-			'Clicken Sie auf die andere Taste, um fortzufahren.<p/>',
+			'Klicken Sie auf die andere Taste, um fortzufahren.<p/>',
 
 			remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
 			'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. ' +
-			'Clicken Sie auf die andere Taste, um fortzufahren.<p/>',
+			'Klicken Sie auf die andere Taste, um fortzufahren.<p/>',
 
 			errorCorrection : true, //Should participants correct error responses?
 			errorFBDuration : 500, //Duration of error feedback display (relevant only when errorCorrection is false)
@@ -188,11 +188,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
-						'Legen Sie Ihren linken Zeige- oder Mittelfinger auf die Taste <b>linke</b> grüne Fläche für Items, die zur Kategorie <font color="#0000ff">leftAttribute</font> gehören.<br/>',
-						'Legen Sie Ihren rechten Zeige- oder Mittelfinger auf die Taste <b>rechte</b> grüne Fläche für Items, die zur Kategorie <font color="#0000ff">rightAttribute</font> gehören.<br/>',
+						'Legen Sie Ihren linken Zeige- oder Mittelfinger auf die grüne Fläche <b>links</b> für Items, die zur Kategorie <font color="#0000ff">leftAttribute</font> gehören.<br/>',
+						'Legen Sie Ihren rechten Zeige- oder Mittelfinger auf die grüne Fläche <b>rechts</b> für Items, die zur Kategorie <font color="#0000ff">rightAttribute</font> gehören.<br/>',
 						'Die Items erscheinen eines nach dem anderen, jedes gehört zu einer Kategorie.<br/>',
 						'<br/>',
-						'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. Drücken Sie die andere Taste, um fort zu fahren. <u>Go as fast as you can</u> while being accurate.',
+						'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. Drücken Sie die andere Taste, um fort zu fahren. <u>Reagieren Sie so schnell Sie können</u> und machen Sie so wenig Fehler wie möglich.</u>',
 					'</p>',
 					'<p align="center">Drücken Sie auf die grüne Fläche <b>unten </b>, wenn Sie parat sind.</p>',
 				'</div>'
@@ -203,7 +203,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Legen Sie Ihren linken Zeige- oder Mittelfinger auf die Taste <b>E</b> für Items, die zur Kategorie <font color="#336600">leftCategory</font> gehören. ' +
 				'<br/>Legen Sie Ihren rechten Zeige- oder Mittelfinger auf die Taste <b>I</b> für Items, die zur Kategorie <font color="#336600">rightCategory</font> gehören.<br/> ' +
-				'Die Items erscheinen eines nach dem anderen, jedes gehört zu einer Kategorie.<br/><br/>' +
+				'Die Items erscheinen nacheinander, jedes gehört zu einer Kategorie.<br/><br/>' +
 				'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. ' +
 				'Drücken Sie die andere Taste, um fort zu fahren.<br/>' +
 				'<u>Reagieren Sie so schnell Sie können und machen Sie dabei so wenig Fehler wie möglich.<br/><br/></p>'+
@@ -244,7 +244,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					'<br/>',
 					'<p align="left" style="margin-left:5px">',
 						'Legen Sie den linken Zeige- oder Mittelfinger auf die grüne Fläche <b>links</b> für <font color="#336600">leftCategory</font> Items und für <font color="#0000ff">leftAttribute</font>.</br>',
-						'Legen Sie den rechten Zeige- oder Mittelfinger auf die grüne Fläche <b>right</b> für <font color="#336600">rightCategory</font> Items und für <font color="#0000ff">rightAttribute</font>.</br>',
+						'Legen Sie den rechten Zeige- oder Mittelfinger auf die grüne Fläche <b>rechts</b> für <font color="#336600">rightCategory</font> Items und für <font color="#0000ff">rightAttribute</font>.</br>',
 							'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. Drücken Sie die andere Taste, um fort zu fahren. <u>Reagieren Sie so schnell Sie können</u> und machen Sie dabei so wenig Fehler wie möglich.</br>',
 						'</p>',
 						'<p align="center">Drücken Sie auf die grüne Fläche <b>unten</b>, wenn Sie parat sind.</p>',
@@ -268,7 +268,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 
 					'<p align="left" style="margin-left:5px">',
 						'Legen Sie Ihren liken Zeigefinger auf die grüne Fläche <b>links</b> für <font color="#336600">leftCategory</font> Items und für <font color="#0000ff">leftAttribute</font>.<br/>',
-						'Legen Sie Ihren rechten Zeigefinger auf die grüne Fläche <b>right</b> für <font color="#336600">rightCategory</font> Items und für <font color="#0000ff">rightAttribute</font>.<br/>',
+						'Legen Sie Ihren rechten Zeigefinger auf die grüne Fläche <b>rechts</b> für <font color="#336600">rightCategory</font> Items und für <font color="#0000ff">rightAttribute</font>.<br/>',
 						'<br/>',
 						'<u>Reagieren Sie so schnell Sie können</u> und machen Sie dabei so wenig Fehler wie möglich.<br/>',
 					'</p>',
@@ -294,7 +294,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						'Beachten Sie, dass die Kategorien die Seite getauscht haben!<br/>',
 							'Drücken Sie auf die grüne Fläche <b>links</b> für <font color="#336600">leftCategory</font> items.<br/>',
 							'Drücken Sie auf die grüne Fläche <b>rechts</b> für <font color="#336600">rightCategory</font> items.<br/>',
-							'Die Items erscheinen eines nach dem anderen.',
+							'Die Items erscheinen nacheinander.',
 							'<br/>',
 							'Ein rotes <font color="#ff0000"><b>X</b></font> erscheint, wenn Sie einen Fehler gemacht haben. Drücken Sie die andere Taste, um fort zu fahren. <u>Reagieren Sie so schnell Sie können</u> und machen Sie dabei so wenig Fehler wie möglich.<br/>',
 						'</p>',
